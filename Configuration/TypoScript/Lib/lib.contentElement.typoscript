@@ -1,7 +1,5 @@
 lib.contentElement {
-    lib.contentElement {
-        templateName >
-        templateName.ifEmpty.cObject = TEXT
-        templateName.ifEmpty.cObject.field = CType
-    }
+    templateName >
+    templateName.ifEmpty.cObject = TEXT
+    templateName.ifEmpty.cObject.field = CType
 }

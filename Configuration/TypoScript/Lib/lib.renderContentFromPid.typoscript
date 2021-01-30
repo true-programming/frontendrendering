@@ -1,0 +1,12 @@
+lib.renderContentFromPid = CONTENT
+lib.renderContentFromPid {
+    table = tt_content
+    select {
+        orderBy = sorting
+        where = colPos = {field:colPos}
+        where.insertData = 1
+        pidInList = colPos = {field:pidInList}
+        pidInList.insertData = 1
+    }
+    slide.field = slide
+}

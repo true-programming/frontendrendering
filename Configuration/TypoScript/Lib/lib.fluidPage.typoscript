@@ -1,0 +1,8 @@
+lib.fluidPage {
+    templateName = TEXT
+    templateName.data = pagelayout
+    templateName.stdWrap.replacement {
+        10.search = pagets__
+        10.replace =
+    }
+}

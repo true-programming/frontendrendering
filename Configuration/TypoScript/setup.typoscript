@@ -1,0 +1,3 @@
+@import 'EXT:frontendrendering/Configuration/TypoScript/Lib/lib.renderContent.typoscript'
+@import 'EXT:frontendrendering/Configuration/TypoScript/Lib/lib.fluidPage.typoscript'
+@import 'EXT:frontendrendering/Configuration/TypoScript/Lib/lib.contentElement.typoscript'

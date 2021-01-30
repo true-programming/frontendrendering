@@ -1,0 +1,10 @@
+lib.renderContent = CONTENT
+lib.renderContent {
+    table = tt_content
+    select {
+        orderBy = sorting
+        where = colPos = {field:colPos}
+        where.insertData = 1
+    }
+    slide.field = slide
+}

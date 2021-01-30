@@ -1,0 +1,20 @@
+{
+	"name": "mp/frontendrendering",
+	"type": "typo3-cms-extension",
+	"description": "Adds basic frontendrendering configuration",
+	"license": [
+		"MIT License"
+	],
+	"keywords": [
+		"TYPO3 CMS",
+		"project"
+	],
+	"require": {
+		"typo3/cms-backend": "^10.0",
+		"typo3/cms-core": "^10.0",
+		"typo3/cms-fluid": "^10.0"
+	},
+	"replace": {
+		"frontendrendering": "self.version"
+	}
+}

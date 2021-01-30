@@ -1,0 +1,4 @@
+lib.contentElement {
+    templateName = TEXT
+    templateName.data = CType
+}

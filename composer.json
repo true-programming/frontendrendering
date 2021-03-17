@@ -14,7 +14,9 @@
 		"typo3/cms-core": "^10.0",
 		"typo3/cms-fluid": "^10.0"
 	},
-	"replace": {
-		"frontendrendering": "self.version"
+	"extra": {
+		"typo3/cms": {
+			"extension-key": "frontendrendering"
+		}
 	}
 }

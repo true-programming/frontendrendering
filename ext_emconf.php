@@ -8,10 +8,10 @@ $EM_CONF['frontendrendering'] = [
     'clearCacheOnLoad' => 1,
     'author' => 'Michael Semle, mikeproductions',
     'author_email' => 'entwicklung@mikeproduction.de',
-    'version' => '1.0.0',
+    'version' => '2.0.0',
     'constraints' => [
         'depends' => [
-            'typo3' => '<=10.9.99',
+            'typo3' => '10.4.0-11.99.99',
         ],
     ],
 ];

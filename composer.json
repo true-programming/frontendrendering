@@ -1,5 +1,5 @@
 {
-	"name": "mp/frontendrendering",
+	"name": "trueproogramming/frontendrendering",
 	"type": "typo3-cms-extension",
 	"description": "Adds basic frontendrendering configuration",
 	"license": [

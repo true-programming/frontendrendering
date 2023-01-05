@@ -2,9 +2,7 @@
 	"name": "trueprogramming/frontendrendering",
 	"type": "typo3-cms-extension",
 	"description": "Adds basic frontendrendering configuration",
-	"license": [
-		"MIT License"
-	],
+	"license": ["GPL-2.0-or-later"],
 	"keywords": [
 		"TYPO3 CMS",
 		"project"

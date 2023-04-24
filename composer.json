@@ -1,16 +1,19 @@
 {
 	"name": "trueprogramming/frontendrendering",
 	"type": "typo3-cms-extension",
-	"description": "Adds basic frontendrendering configuration",
+	"description": "Provides basic typoscript configuration for templating",
 	"license": ["GPL-2.0-or-later"],
 	"keywords": [
 		"TYPO3 CMS",
-		"project"
+		"project",
+		"frontend",
+		"typoscript",
+		"configuration"
 	],
 	"require": {
-		"typo3/cms-backend": "^10.0 || ^11",
-		"typo3/cms-core": "^10.0 || ^11",
-		"typo3/cms-fluid": "^10.0 || ^11"
+		"typo3/cms-backend": "^11 || ^12",
+		"typo3/cms-core": "^11 || ^12",
+		"typo3/cms-fluid": "^11 || ^12"
 	},
 	"extra": {
 		"typo3/cms": {

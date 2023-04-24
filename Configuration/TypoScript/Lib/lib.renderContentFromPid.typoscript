@@ -5,7 +5,7 @@ lib.renderContentFromPid {
         orderBy = sorting
         where = colPos = {field:colPos}
         where.insertData = 1
-        pidInList = colPos = {field:pidInList}
+        pidInList = {field:pidInList}
         pidInList.insertData = 1
     }
     slide.field = slide

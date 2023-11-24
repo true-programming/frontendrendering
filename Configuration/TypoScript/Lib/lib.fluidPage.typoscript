@@ -1,3 +1,4 @@
+lib.fluidPage = FLUIDTEMPLATE
 lib.fluidPage {
     templateName = TEXT
     templateName.data = pagelayout
